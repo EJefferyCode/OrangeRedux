@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Orange Literary Agency</title>
+    </head>
+
+<body>
+   <div class="jumbotron">
+    <div class="container text-center" id="container">
+       <!--orange literary agency goes here via json-->
+    </div>
+   </div>
+    
+   <div class="container-fluid bg-3 text-center">
+    <h1 id="agents">Our Agents</h1>
+   <div class="row">
+    <div class="col-sm-3" id="sand">
+       <img src="images/image1.jpg"/><br><br>
+       <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#Modal1">More Info</button>
+    </div>
+       
+    <div class="col-sm-3" id="beard">
+       <img src="images/image2.jpg"/><br><br>
+       <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#Modal2">More Info</button>
+    </div>
+       
+    <div class="col-sm-3" id="len">
+       <img src="images/image3.jpg"/><br><br>
+        <button type="button" class="btn btn-warning"  data-toggle="modal" data-target="#Modal3">More Info</button>
+    </div>
+    </div>
+   </div>
+    
+    <!-------------------------------------------Modal Info----------------------------------->
+    <div id="Modal1" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1>Jen Sandberg</h1><br>
+                    <p>In 1997, Jen graduated from Ohio State University with a Bachelors of Arts.<br>
+                       Having always had a passion for stories as a child, Jen dedicated her life<br>
+                       to finding the perfect story as well as publishing to books of her own. She<br>
+                       currently resides in New York City, has a dog and two daughters. Jen is one of the
+                       founders of The Orange Literary Agency.
+                    </p>
+                    <a href="https://www.instagram.com/emilykosofficial">Follow Jen On Twitter!</a>
+                    <br><br>
+                    <img src="images/1.jpg"/>
+                </div>
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Modal2" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1>John Beardman</h1><br>
+                    <p>John started his publishing career in 2010 after spending his early 20's<br>
+                        modeling in France for top designers such as Calvin Klein and Fendi Men.<br>
+                        In 2009, John finished his degree in English at NYU, all while developing<br>
+                        a soft spot for controversial romance, sci-fi and short stories. John currently
+                        resides in Hoboken, N.J. and loves running on the weekends. 
+                    </p>
+                    <a href="https://www.instagram.com/emilykosofficial">Follow John On Twitter!</a>
+                     <br><br>
+                    <img src="images/3.jpg" id="john"/>
+                </div>
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Modal3" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h1>Danielle Len</h1><br>
+                    <p>Danielle Len was born and raised in Boston to two loving parents, Karen and Kevin.<br>
+                       After high school in 2001, she traveled(backpacked) through Europe and Africa, <br>developing a strong affliction for folklore tales as well as indiginous cuisine.<br>
+                        Today, Danielle's interests include coming home to her husband, a writer for<br>
+                        The New York Times, and going over the many great ideas and manuscripts she receives<br>
+                        on a daily basis!
+                    </p>
+                    <a href="https://www.instagram.com/emilykosofficial">Follow Danielle On Twitter!</a>
+                     <br><br>
+                    <img src="images/2.jpg" id="dan"/>
+                </div>
+                 <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+    <ul>
+    <li><a href="#">Careers</a></li>
+    <li><a href="#">Media</a></li>
+    <li><a href="#">Legal</a></li>
+    </ul>
+    &copy;The Orange Literary Agency
+    </footer>
+    <!--------------------------------scripts------------------------->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="jj.js"></script>
+    <script src="j.js"></script>
+</body>
+</html>
